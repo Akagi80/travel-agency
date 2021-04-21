@@ -32,12 +32,13 @@ export default function reducer(statePart = [], action = {}) {
     case CHANGE_TAG:
       return {
         ...statePart,
-        tags: action.payload,
+        tags: action.payload.checked ? [...statePart.tags, action.payload.tag] :
+          statePart.tags.filter(tag => tag != action.payload.tag),
       };
     case CHANGE_DURATION:
       return {
         ...statePart,
-        duration: action.payload,
+        duration: {...statePart.duration, [action.payload.type]: action.payload.value},
       };
     default:
       return statePart;
