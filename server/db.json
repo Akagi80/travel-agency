@@ -15,6 +15,148 @@
       "start-date": "",
       "totalCost": "$80,548",
       "id": 1
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "suite",
+      "features": [
+        "kitchen",
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "3",
+      "name": "Hiryu",
+      "contact": "555-555-551",
+      "start-date": "",
+      "totalCost": "$492,444",
+      "tripName": "Marvelous travel in fantastic Timor-Leste",
+      "tripId": "5cc1d1014c75f672e46ef6d7",
+      "tripCountry": "Timor-Leste",
+      "id": 2
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [
+        "kitchen",
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "Shokaku",
+      "contact": "555-555-552",
+      "start-date": "",
+      "totalCost": "$130,452",
+      "tripName": "Pleasant travel in cool Turkey",
+      "tripId": "5cc1d10130dfa407e2e54e20",
+      "tripCountry": "Turkey",
+      "id": 3
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "tripName": "Pleasant travel in cool Turkey",
+      "tripId": "5cc1d10130dfa407e2e54e20",
+      "tripCountry": "Turkey",
+      "id": 4
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "pool"
+      ],
+      "adults": "3",
+      "children": "1",
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$125,009",
+      "tripName": "Wondrous travel in excellent United States of America",
+      "tripId": "5cc1d1015f3c5f5f14384b15",
+      "tripCountry": "United States of America",
+      "id": 5
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "pool"
+      ],
+      "adults": "3",
+      "children": "1",
+      "name": "",
+      "contact": "555-555-553",
+      "start-date": "",
+      "totalCost": "$125,009",
+      "tripName": "Wondrous travel in excellent United States of America",
+      "tripId": "5cc1d1015f3c5f5f14384b15",
+      "tripCountry": "United States of America",
+      "id": 6
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "pool"
+      ],
+      "adults": "3",
+      "children": "1",
+      "name": "Soryu",
+      "contact": "555-555-553",
+      "start-date": "",
+      "totalCost": "$125,009",
+      "tripName": "Wondrous travel in excellent United States of America",
+      "tripId": "5cc1d1015f3c5f5f14384b15",
+      "tripCountry": "United States of America",
+      "id": 7
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "kitchen",
+        "security",
+        "pool",
+        "all-inclusive"
+      ],
+      "adults": "3",
+      "children": "2",
+      "name": "Kaga",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$225,523",
+      "tripName": "Pleasant travel in cool Turkey",
+      "tripId": "5cc1d10130dfa407e2e54e20",
+      "tripCountry": "Turkey",
+      "id": 8
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "kitchen",
+        "security",
+        "pool",
+        "all-inclusive"
+      ],
+      "adults": "3",
+      "children": "2",
+      "name": "Kaga",
+      "contact": "555-555-554",
+      "start-date": "2021-05-19T22:00:00.000Z",
+      "totalCost": "$225,523",
+      "tripName": "Pleasant travel in cool Turkey",
+      "tripId": "5cc1d10130dfa407e2e54e20",
+      "tripCountry": "Turkey",
+      "id": 9
     }
   ]
 }
