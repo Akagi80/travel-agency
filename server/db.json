@@ -1,0 +1,20 @@
+{
+  "orders": [
+    {
+      "car-rental": "suv",
+      "accommodation": "house",
+      "features": [
+        "kitchen",
+        "pool",
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "Akagi",
+      "contact": "555-555-555",
+      "start-date": "",
+      "totalCost": "$80,548",
+      "id": 1
+    }
+  ]
+}
