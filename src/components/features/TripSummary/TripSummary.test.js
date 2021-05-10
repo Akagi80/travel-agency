@@ -57,8 +57,9 @@ describe('Componment TestSummary', () => {
   });
 
   it('should not render div with tags class, if props tags are false or array are empty', () => {
-    const component = shallow(<TripSummary />);
+    const component = shallow(<TripSummary tags={[]} />);
 
     expect(component.hasClass('tags')).toEqual(false);
   });
 });
+
