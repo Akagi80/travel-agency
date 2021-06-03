@@ -8,13 +8,13 @@ class DaysToSummer extends React.Component {
     const currentDate = new Date();
 
     const currentYear = currentDate.getUTCFullYear();
-    const currentMonth = currentDate.getUTCMonth();
-    const currentDay = currentDate.getUTCDay();
+    const currentMonth = currentDate.getUTCMonth() + 1;
+    const currentDay = currentDate.getUTCDate();
     const currentUTCDate = new Date (currentYear, currentMonth, currentDay);
 
-    console.log('currentDate: ', currentDate,);
-    console.log('currentYear: ', currentYear, 'currentMonth: ', currentMonth, 'currentDay: ', currentDay); // maj - wtf?
-    console.log('currentUTCDate: ', currentUTCDate,);
+    //console.log('currentDate: ', currentDate,);
+    //console.log('currentYear: ', currentYear, 'currentMonth: ', currentMonth, 'currentDay: ', currentDay);
+    //console.log('currentUTCDate: ', currentUTCDate,);
 
 
     const startDate = new Date(currentYear, 6, 21);

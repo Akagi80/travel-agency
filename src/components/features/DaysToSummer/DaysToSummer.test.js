@@ -41,12 +41,26 @@ const checkDescriptionAtTime = (date, expectedDescription) => {
 };
 
 describe('Component DaysToSummer with mocked Date', () => {
-  checkDescriptionAtTime('2021-06-03', '');
-  checkDescriptionAtTime('2021-06-15', '');
-  checkDescriptionAtTime('2021-06-20', '');
   checkDescriptionAtTime('2021-06-21', '');
   checkDescriptionAtTime('2021-07-28', '');
   checkDescriptionAtTime('2021-09-23', '');
-  checkDescriptionAtTime('2021-09-24', '');
+});
+
+const checkDescriptionAfterTime = (date, expectedDescription) => {
+  it(`should show correct at ${date}`, () => {
+    global.Date = mockDate(`${date}`);
+
+    const component = shallow(<DaysToSummer />);
+    const renderedTimeToSummer = component.find(select.timeToSummer).text();
+    expect(renderedTimeToSummer).toEqual(expectedDescription);
+
+    global.Date = trueDate;
+  });
+};
+
+describe('Component DaysToSummer with mocked Date', () => {
+  checkDescriptionAfterTime('2021-06-03', '18 days to summer');
+  checkDescriptionAfterTime('2021-06-15', '6 days to summer');
+  checkDescriptionAfterTime('2021-06-20', '1 day to summer');
 });
 
